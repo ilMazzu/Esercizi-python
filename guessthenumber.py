@@ -3,7 +3,7 @@ i = 0
 while i == 0:
     import random
     guess = int(input("inserisci il numero: "))
-    numero1 = random.randint(0, 5)
+    numero1 = random.randint(0, 10)
     if guess == numero1:
         print("hai vinto!")
         i += 1
